@@ -2,18 +2,20 @@ body,
 html {
   padding: 0;
   margin: 0;
+  height:auto;
   overflow-x: hidden;
+  overflow-y: visible;
 }
 
 .upper {
-  width: 100%;
+  
   border-top: 10px solid #f3722c;
   padding: 1%;
   
 }
 
-.heading-director h1 {
-  font-size: 50px;
+.heading-director h3 {
+  
   font-weight: 900;
   letter-spacing: 2px;
   background: -webkit-linear-gradient(#f3722c, #f8961e);
@@ -64,7 +66,7 @@ html {
   margin-top: 0;
 }
 .header .carousel-inner {
-  max-height: 70vh;
+  height: 70vh;
 }
 
 .hnbleimage {
@@ -710,7 +712,7 @@ html {
 
 
 @media screen and (min-width:730px){
-  .heading-director h1{
+  .heading-director h3{
     font-size: 30px;
     margin-top:20px ;
   }
@@ -758,12 +760,12 @@ html {
   }
   
 @media screen and (max-width:730px){
-  .heading-director h1{
-    font-size: 30px;
+  .heading-director h3{
+    font-size: 25px;
     
   }
   .heading-director{
-    margin-top: 70px;
+    margin-top: 20px;
   }
   .upper .container .col-md-4{
     width:auto;
@@ -809,6 +811,12 @@ html {
   @media screen and (max-width:460px){
     .col-heading{
       font-size:20px ;
+    }
+    .upper .container .col-md-4{
+      width:100%;
+      display:flex;
+      align-items: center;
+      justify-content: center;
     }
     .gtable td{
       padding: 0px;

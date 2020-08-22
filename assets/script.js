@@ -1,7 +1,7 @@
 // ——————————————————————————————————————————————————
 // TextScramble
 // ——————————————————————————————————————————————————
-
+/*
 class TextScramble {
   constructor(el) {
     this.el = el;
@@ -74,11 +74,12 @@ const next = () => {
 };
 
 next();
-
+*/
+/*
 jQuery.fn.liScroll = function (settings) {
   settings = jQuery.extend(
     {
-      travelocity: 0.01,
+      travelocity: 0.05,
     },
     settings
   );
@@ -120,6 +121,6 @@ jQuery.fn.liScroll = function (settings) {
 
 $(function () {
   $("ul#ticker01").liScroll();
-});
+});*/
 
 const josh = new Josh();
